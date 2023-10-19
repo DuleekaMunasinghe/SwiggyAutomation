@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T19:59:57 NZDT" name="Default suite" finished-at="2023-10-17T20:00:22 NZDT" duration-ms="24707">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runner.CucumberRunnerTests@52b1beb6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-17T19:59:57 NZDT" name="Default test" finished-at="2023-10-17T20:00:22 NZDT" duration-ms="24707">
+      <class name="com.swiggy.runner.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.swiggy.runner.CucumberRunnerTests@52b1beb6]" started-at="2023-10-17T19:59:57 NZDT" name="setUpClass" finished-at="2023-10-17T19:59:58 NZDT" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runner.CucumberRunnerTests@52b1beb6]" started-at="2023-10-17T19:59:58 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-17T20:00:21 NZDT" duration-ms="23661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Order Pizza From Swiggy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add feature description here - Order Pizza from Swiggy]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.swiggy.runner.CucumberRunnerTests@52b1beb6]" started-at="2023-10-17T20:00:21 NZDT" name="tearDownClass" finished-at="2023-10-17T20:00:22 NZDT" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.swiggy.runner.CucumberRunnerTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
