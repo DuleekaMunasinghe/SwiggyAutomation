@@ -35,4 +35,3 @@ Then Select first location from suggested location in suggestion-box
 Examples: 
 |city|
 |Mumbai|
-#|Chennai|
